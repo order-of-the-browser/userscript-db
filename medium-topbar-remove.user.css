@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           medium.com - Kill the topbar
+@namespace      OotB
+@version        1.0.0
+@description    Removes the top bar for medium. Might find it hard to navigate.
+@author         github:javaarchive
+==/UserStyle== */
+
+@-moz-document domain("medium.com") {
+	.js-metabarMiddle,.metabar-inner{
+		display:none !important;
+	}
+}
