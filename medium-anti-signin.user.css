@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           medium.com No Sign In
+@namespace      OooB
+@version        1.0.0
+@description   OotB Userscript for blocking Google sign in prompts. Save some space!
+@author         github:javaarchive
+==/UserStyle== */
+
+@-moz-document domain("medium.com") {
+	.Sx9Kwc-haAcl,body > iframe{
+		display: none;
+	}
+}
