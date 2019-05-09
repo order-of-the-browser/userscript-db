@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           GeeksForGeeks decluster and print mode
+@namespace      OotB
+@version        1.0.0
+@description    A userstyle to remove all the ads and sidebars from geeksforgeeks so we can print and focus. 
+@author         github:javaarchive
+==/UserStyle== */
+
+@-moz-document domain("www.geeksforgeeks.org") {
+#site-navigation,#MasterHead,.leftSideBarParent,#secondary{
+	display:none !important;
+}
+#content,#content > div,article,.wrapper,#content,#main,.entry-content,.entry-content > div,p,body,article{
+	width:100% !important;
+}
+body > div.modal-container > div.login-modal-div,.login-modal-div{
+	display:none !important;
+
+}
+}
