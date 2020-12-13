@@ -1,0 +1,72 @@
+/* ==UserStyle==
+@name           Glitchy Christmas
+@namespace      io.javaarchive.glitchdotcomchristmas
+@version        1.0.0
+@description    Have a wonderful Christmas
+@author         javaarchive
+==/UserStyle== */
+
+@-moz-document domain("glitch.com") {
+   #react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__MiddleContainer-ok4sfw-8.hdnIYs > a:nth-child(4){
+	   display: none;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI{
+		background-color: #165B33;	
+	}
+	#react-root > div > div.styles__content___1YCSq{
+		background-color: teal;
+		color: white;
+	}
+	#react-root > div > div.styles__content___1YCSq > a{
+		color: cyan;
+	}
+	#react-root > div > div.styles__content___1YCSq > a:visited{
+		color: cyan;
+	}
+	.styles__description___3E2_0{
+		color: white;
+	}
+	.styles__staticBadge___gDvd4{
+		color: black;
+		background-color: #F8B229;
+	}
+	.styles__staticBadge___gDvd4:hover{
+		background-color: #EA4630 !important;
+	}
+	#main > div.styles__desktopWrap___69w0f > header,#main > div.styles__desktopWrap___69w0f > table > tbody > tr:nth-child(1),.styles__table___36XM6,#react-root > div{
+		background-color: teal;
+	}
+	.styles__desktopWrap___69w0f,tr > a,.styles__dateCell___3Mth5,.styles__dateCell___3Mth5,.styles__toggleCell___19wSU,.styles__uptimeCell___2fMM9,.styles__domainCell___1w-xp,.styles__checkboxCell___1hch_{
+		background-color: teal !important;
+	}
+	div > svg,.styles__projectPrivacyIcon___1XvTC icon__SVGBase-sc-14abeh1-1,.bOzyky{
+		color: white;
+	}
+	p > a{
+		color: cyan;
+	}
+	.footer__column___3Uioy{
+		color: white;
+	}
+	.footer__footerLinkWrap___3A8JJ > a:hover{
+		font-weight: bolder;
+	}
+	.footer__footerLinkWrap___3A8JJ > a{
+		transition: 0.2s;
+		color: #F8B229 !important;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header{
+		background-color: #EA4630;
+		color: white;
+	}
+	.styled__HeaderActions-ok4sfw-9 > a,.styled__HeaderActions-ok4sfw-9 > div > a,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > a > span{
+		color: white;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > button,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div > div > section > button{
+		background-color: #F8B229;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div > div > section,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div > div > section > div,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div > div > section > div > ul,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div > div > section > div > ul > li,#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(2) > div > div > div > section > div > ul > li > a{
+		background-color: teal;
+		color: whitesmoke;
+	}
+}
