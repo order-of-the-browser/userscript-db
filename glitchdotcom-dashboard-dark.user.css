@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Glitch.invert
+@namespace      idk
+@version        1.0.0
+@description    Glitch.isDark = true
+@author         github:javaarchive
+==/UserStyle== */
+
+@-moz-document url-prefix("glitch.com/dashboard") {
+	body{
+		filter: invert(1);
+	}
+}
