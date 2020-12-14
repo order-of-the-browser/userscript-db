@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name           BetterGlitch
+@namespace      io.github.javaarchive.betterglitch
+@version        1.0.0
+@description    Adjustments to glitch
+@author         github:javaarchive
+==/UserStyle== */
+
+@-moz-document domain("glitch.com") {
+	@keyframes rainbow{
+		0%{    filter: hue-rotate(0deg);}
+		100%{    filter: hue-rotate(360deg);}
+	}
+	@keyframes mildrainbow{
+		
+	}
+	#main > section > div.styles__introProjectHours___2XXAz > div.styles__projectHoursProgress___3fTl1{
+		animation-name: rainbow;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease;
+	}
+	#main > section > div.styles__introSubscribePromo___2f3bm{
+		transition: filter 1s;
+		filter: hue-rotate(0deg);
+	}
+	#main > section > div.styles__introSubscribePromo___2f3bm:hover{
+		filter: hue-rotate(90deg);
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(3) > div > div:nth-child(1) > button > div > img{
+		transition: transform 2s;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(3) > div > div:nth-child(1) > button > div > img:hover{
+		transform: rotate(180deg);
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(3) > div.popover__PopoverWrap-sc-77byz1-0.ixddow > div > div > header > h2 > a > div.user-options-pop__UserAvatarContainer-q30e4n-3.cvaKLw > img{
+		transition: transform 2s;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__RightContainer-ok4sfw-10.inOnib > div:nth-child(3) > div.popover__PopoverWrap-sc-77byz1-0.ixddow > div > div > header > h2 > a > div.user-options-pop__UserAvatarContainer-q30e4n-3.cvaKLw > img:hover{
+		transform: rotate(180deg);
+	}
+	button.jnvevu,a.jnvevu{
+		transition: background-color 0.5s;
+	}
+	button.jnvevu:hover{
+		background-color: lightpink;
+	}
+	a.jnvevu:hover{
+		background-color: lightblue;
+	}
+	.toggle__Knob-vk11ff-4{
+		background-color: gold;
+	}
+	.toggle__OffLabel-vk11ff-3{
+		background-color: lightyellow;
+	}
+	.toggle__OffLabel-vk11ff-3{
+		background-color: lightgreen;
+	}
+	svg[data-tooltip="To change privacy settings, visit this project in the editor."],.styles__projectPrivacyIcon___1XvTC{
+		color: #7289da;
+	}
+	#main > div.styles__desktopWrap___69w0f > header > div.styles__filters___1kIMp > label > span.text-input__InputWrap-sc-1yf6mpb-0.dATWub > input{
+		transition: 1s;
+	}
+	#main > div.styles__desktopWrap___69w0f > header > div.styles__filters___1kIMp > label > span.text-input__InputWrap-sc-1yf6mpb-0.dATWub > input:focus{
+		min-width: 35em;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > a{
+		transition: 1s;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > a:hover{
+		transform: scale(2,2) translate(100px, 0px);
+		
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > a:focus{
+		transform: scale(2,2) translate(100px, 0px);
+		
+	}
+	.kjazLV,.ffLwcX{
+		transition: 1s;
+	}
+	.kjazLV:hover,.ffLwcX:hover{
+		font-size: 1.1em;
+		color: teal;
+	}
+	.footer__column___3Uioy > a,.footer__footerLinkWrap___3A8JJ > a{
+		transition: 0.2s;
+	}
+	.footer__column___3Uioy > a:hover,.footer__footerLinkWrap___3A8JJ > a:hover{
+		color: violet;
+		font-weight: bolder;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__MiddleContainer-ok4sfw-8.hdnIYs > a:nth-child(5) > img{
+		transition: 1s;
+	}
+	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__MiddleContainer-ok4sfw-8.hdnIYs > a:nth-child(5) > img:hover{
+		transform: translate(0,100px) scale(3,3);
+	}
+}
