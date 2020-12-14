@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           BetterGlitch
 @namespace      io.github.javaarchive.betterglitch
-@version        1.0.1
+@version        1.1.0
 @description    Adjustments to glitch
 @author         github:javaarchive
 ==/UserStyle== */
@@ -70,11 +70,11 @@
 		transition: 1s;
 	}
 	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > a:hover{
-		transform: scale(2,2) translate(100px, 0px);
+		transform: scale(2,2) translate(25%, 0px);
 		
 	}
 	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > a:focus{
-		transform: scale(2,2) translate(100px, 0px);
+		transform: scale(2,2) translate(25%, 0px);
 		
 	}
 	.kjazLV,.ffLwcX{
@@ -96,5 +96,11 @@
 	}
 	#react-root > div > div.styled__DesktopLayout-ok4sfw-0.kFGnKI > div > header > nav > div.styled__MiddleContainer-ok4sfw-8.hdnIYs > a:nth-child(5) > img:hover{
 		transform: translate(0,100px) scale(3,3);
+	}
+	#react-root > div > footer > div > div:nth-child(1) > a{
+		transition: 1s;
+	}
+	#react-root > div > footer > div > div:nth-child(1) > a{
+		transform: scale(2,2) translate(25%,0);
 	}
 }
